@@ -1,0 +1,52 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+#taskForm {
+    background: #f1f1f1;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+#taskForm h3 {
+    color: #007bff;
+}
+
+.completed {
+    background-color: #28a745 !important;
+    color: white;
+}
+
+.expired {
+    background-color: #dc3545 !important;
+    color: white;
+}
+
+.pending {
+    background-color: #ffc107 !important;
+    color: white;
+}
+
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item div {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    margin-left: 0.5rem;
+}
